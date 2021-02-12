@@ -1,4 +1,4 @@
-# CurrencyConverter_Qmobi
+# CurrencyConverter
 Установка
 ___
 $ git clone https://github.com/Zloichist83361/CurrencyConverter_Qmobi.git
