@@ -1,22 +1,22 @@
 # CurrencyConverter
-Установка
+Clone repository
 ___
 $ git clone https://github.com/Zloichist83361/CurrencyConverter_Qmobi.git
 
-Как работает
+How does it work
 ___
-Необходимо отправить POST запрос в формате JSON:
+You need to send a POST request in JSON format:
 
-{"currency":[валюта В которую конвертируем], "value":[сумма в числовом типе данных (не строка)]}
+{"currency":[currency into which we convert], "value":[sum in numeric data type (not string)]}
 
-Причем ключи JSON-а не могут быть другими, значение ключа "currency" может быть только "USD" или "RUB", а значение ключа "value" только Numeric.
+Moreover, JSON keys cannot be different, the value of the "currency" key can only be "USD" or "RUB", and the value of the "value" key can only be Numeric.
 
-Подобный запрос можно составить через тест:
+A similar request can be made through a test:
 ___
- python test.py [АДРЕС]:[ПОРТ]
+ python test.py [ADDRESS]:[PORT]
  
-Ответ:
+Response:
 ___
-Если условия формата соблюдены - 200 OK и JSON вида: {"value": 15}
+If the format conditions are met - 200 OK and JSON of the form: {"value": 15}
 
-Иначе - 400 Bad Request.
+Else - 400 Bad Request.
